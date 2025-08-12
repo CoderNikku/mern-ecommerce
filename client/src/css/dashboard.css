@@ -1,0 +1,64 @@
+
+.dashboard{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    /* width: 20%; */
+    /* border: 2px solid black; */
+}
+
+.logo{
+    /* height: 3vh; */
+    /* width: 75%; */
+    /* border: 2px solid black; */
+}
+
+
+.dashnav{
+    /* height: 60vh; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.support{
+    /* height: 20vh; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.main{
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+
+.heading{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+
+.feature{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 30px;
+}
+
+.blogs{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+}
+
+

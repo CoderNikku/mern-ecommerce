@@ -1,0 +1,235 @@
+/* Home page styling */
+.homenav {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: aquamarine;
+
+}
+.navimage{
+  margin: 20px 20px;
+}
+
+.navtag ul {
+  display: flex;
+}
+
+.navtag ul a {
+  text-decoration: none;
+}
+
+.navtag ul li {
+  list-style-type: none;
+  margin: 20px 20px;
+}
+
+.menuicon {
+  display: none;
+  cursor: pointer;
+}
+
+.removeicon {
+  display: none;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .homenav {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* now aligned to right */
+    width: 200px;
+    height: 100vh;
+    background: white;
+    z-index: 1000;
+    padding: 20px;
+  }
+
+  .navimage img {
+    height: 100px;
+    width: 200px;
+  }
+
+  .menuicon {
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1100;
+  }
+
+  .removeicon {
+    display: block;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 1100;
+  }
+
+  .navtag ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navtag ul li {
+    margin: 10px 0;
+  }
+}
+
+
+/* chetbot styling  */
+/*  Chatbot Icon (bottom-right corner) */
+.cheatbotlogo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.cheatbotlogo img{
+  height: 80px;
+  width: 90px;
+}
+
+/*  Chatbox (opens above the chatbot icon) */
+.chatbox {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Chatbox Header */
+.chatbox-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+/*  Chat Messages Area */
+.chatbox-messages {
+  padding: 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+  max-height: 250px;
+  /* Optional: limit message height */
+}
+
+/*  Chat Input Area */
+.chatbox-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.chatbox-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+.chatbox-input button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+  .cheatbotlogo {
+    position: fixed;
+    bottom: 180px;
+    right: 350px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .chatbox {
+    position: fixed;
+    bottom: 100px;
+    right: 150px;
+    width: 250px;
+    max-height: 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+/* footer styling */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.footer-left {
+  margin: 5px 5px;
+}
+
+.footer-left input {
+  font-size: 25px;
+}
+
+.footer-left button {
+  font-size: 25px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.footer-right {
+  margin: 5px 5px;
+}
+
+.footer-right Link {
+  font-style: none;
+  text-decoration: none;
+}
+
+.footer-right i {
+  margin: 15px 15px;
+  font-size: 25px;
+  font-style: none;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:769px) {
+  .footer {
+    display: block;
+    margin: 5px 5px;
+    padding: 10px 10px;
+  }
+}
