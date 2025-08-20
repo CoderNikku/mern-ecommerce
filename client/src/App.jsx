@@ -27,8 +27,8 @@ import Profile from './components/user/profile'
 import UpdateUserBlog from './components/user/updateuserBlog'
 import ViewUserBlog from './components/user/viewUserBlog'
 
-// admin component import 
-import NewBlog from './components/admin/newblog'
+// admin component import /
+import NewBlog from './components/admin/newblog'  
 import Mypost from './components/admin/mypost'
 import Post from './components/admin/post'
 import Admin from './components/admin/admin'
